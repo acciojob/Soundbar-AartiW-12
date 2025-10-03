@@ -1,1 +1,29 @@
 /*  your css code here. If applicable */
+body{
+	height:100vh;
+	background-color:#8941b9;
+	justify-content:center;
+	align-content:center;
+}
+#buttons{
+	margin : 20px;
+	padding : 5px;
+	align-items:center;
+}
+.btn{
+	height:30px;
+	width:80px;
+	padding:2px;
+	background-color:#340652;
+	color:white;
+	cursor:pointer;
+	border-radius:10px
+}
+.stop{
+	background-color:#340652;
+	height:30px;
+	width:80px;
+	color:white;
+	cursor:pointer;
+	border-radius:10px
+}
