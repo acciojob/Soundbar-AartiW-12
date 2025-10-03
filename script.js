@@ -4,7 +4,7 @@ const sound_btn = document.querySelectorAll(".btn");
 const sounds = ['applause','boo','gasp','tada','victory','wrong']
 sounds.forEach((sound) => {
 	const audio = document.createElement("audio");
-	audio.id ="sound";
+	audio.id =sound;
 	audio.src = `./sounds/${sound}.mp3`;
 	audio.preload = "auto";
 	document.body.appendChild(audio)
@@ -18,9 +18,7 @@ sound_btn.forEach((btn) => {
 	})
 })
 
-document.querySelector(".stop").addEventListener("click", ()=>{
-	stopSounds();
-})
+document.querySelector(".stop").addEventListener("click",stopSounds)
 
 function stopSounds() {
 	sounds.forEach(sound => {

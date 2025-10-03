@@ -27,3 +27,6 @@ body{
 	cursor:pointer;
 	border-radius:10px
 }
+.btn:hover, .stop:hover {
+  background-color: #502080;
+}
